@@ -135,6 +135,8 @@ nav.addEventListener('mouseout', handleHover.bind(1));
 
 ///////////////////////////////////////
 // Sticky navigation: Intersection Observer API
+const izi = section1.getBoundingClientRect();
+console.log(izi);
 
 const header = document.querySelector('.header');
 const navHeight = nav.getBoundingClientRect().height;
